@@ -1,0 +1,33 @@
+a,
+.link--text,
+.link--button,
+.link--text-img,
+.link--button-card {
+  font-family: "Dela Gothic One", "Work Sans", sans-serif;
+  font-size: 1.6rem;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.link--text-img {
+  display: flex;
+  align-items: center;
+  img {
+    margin-left: 8px;
+  }
+}
+
+.link--button {
+  background-color: var(--orange-n1);
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.link--button-card {
+  background-color: var(--yellow);
+  padding: 8px 42px;
+  color: var(--black);
+  font-size: 2rem;
+  line-height: 2.8rem;
+  border-radius: 8px;
+}

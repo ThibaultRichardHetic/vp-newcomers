@@ -1,0 +1,15 @@
+.colortheme {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 4.8rem;
+  left: 4rem;
+
+  p {
+    padding-left: 1.6rem;
+  }
+
+  #theme-text {
+    text-transform: capitalize;
+  }
+}

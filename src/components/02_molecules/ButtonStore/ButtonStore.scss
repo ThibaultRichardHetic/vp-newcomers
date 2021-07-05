@@ -1,0 +1,37 @@
+.container--button-store {
+  border-radius: 8px;
+  background-color: var(--light);
+  width: 120px;
+  max-width: 120px;
+  height: 50px;
+  max-height: 50px;
+  box-sizing: border-box;
+  position: relative;
+  padding: 8px 0 8px 6px;
+
+  a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .container--illu {
+    margin-right: 8px;
+  }
+
+  &.dark {
+    background-color: var(--dark);
+    p {
+      color: var(--light);
+    }
+    svg {
+      path {
+        fill: var(--light);
+        stroke: var(--dark);
+      }
+    }
+  }
+}

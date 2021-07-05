@@ -1,0 +1,121 @@
+{
+  "artiste": [
+    {
+      "name": "Oxmo Puccino",
+      "image": "oxmo-puccino.jpeg",
+      "to": "oxmo",
+      "mpm": 103,
+      "top_word": "Vie",
+      "twScore": 36,
+      "mots_uniques": 6400,
+      "titres": 37,
+      "albums": 3
+    },
+    {
+      "name": "PNL",
+      "image": "pnl.jpeg",
+      "to": "pnl",
+      "mpm": 128,
+      "top_word": "Belle",
+      "twScore": 24,
+      "mots_uniques": 5431,
+      "titres": 71,
+      "albums": 4,
+      "surname": "Ademo & NOS",
+      "age": "35 & 32",
+      "lieux": "Corbeil-Essones",
+      "description": "PNL est une des têtes d’affiche du rap français sur la 2eme partie de la décennie 2010. Les deux frères ont su apporter une touche originale et unique au rap français. Un rap planant, mélancolique et définitivement différent. Malgré ce positionnement artistique différenciant, sont-ils vraiment différent dans leurs lyrics et le message qu’ils font passer ? Quelques statistiques pour vous faire une idée.",
+      "time_med": "3:57",
+      "time_min": "3:08",
+      "time_max": "5:29",
+      "time_min_name": "Menace",
+      "time_max_name": "Dans ta rue",
+      "top_words": [
+        {
+          "word": "vivre",
+          "iteration": 230
+        },
+        {
+          "word": "ouais",
+          "iteration": 317
+        },
+        {
+          "word": "vendre",
+          "iteration": 172
+        },
+        {
+          "word": "famille",
+          "iteration": 168
+        },
+        {
+          "word": "seul",
+          "iteration": 153
+        }
+      ]
+    },
+    {
+      "name": "JUL",
+      "image": "jul.jpeg",
+      "to": "jul",
+      "mpm": 190,
+      "top_word": "Monde",
+      "twScore": 29,
+      "mots_uniques": 3500,
+      "titres": 371,
+      "albums": 7
+    },
+    {
+      "name": "Nekfeu",
+      "image": "nekfeu.png",
+      "to": "nekfeu",
+      "mpm": 200,
+      "top_word": "Nuit",
+      "twScore": 51,
+      "mots_uniques": 8450,
+      "titres": 68,
+      "albums": 3,
+      "surname": "Le Fennek",
+      "age": "31",
+      "lieux": "Paris",
+      "description": "Nekfeu est considéré comme le lyricists du paysage hip-«hop français. Une plume reconnue par ses pairs ainsi que par la publique. Le rappeur d’origine grecque sait manier ses flows et excelle sur des ppm rapides en kickant très rapidement mais il sait aussi ralentir et prendre le temps sur un flow plus doux. Que diront ses statistiques de lui ?",
+      "time_med": "3:50",
+      "time_min": "1:31",
+      "time_max": "8:46",
+      "time_min_name": "Interlude Fifty",
+      "time_max_name": "Risible amours",
+      "top_words": [
+        {
+          "word": "feu",
+          "iteration": 310
+        },
+        {
+          "word": "rêves",
+          "iteration": 240
+        },
+        {
+          "word": "sens",
+          "iteration": 206
+        },
+        {
+          "word": "question",
+          "iteration": 135
+        },
+        {
+          "word": "temps",
+          "iteration": 134
+        }
+      ]
+    },
+    {
+      "name": "Booba",
+      "image": "booba.jpeg",
+      "to": "booba",
+      "mpm": 192,
+      "top_word": "Mieux",
+      "twScore": 44,
+      "mots_uniques": 7200,
+      "titres": 92,
+      "albums": 5
+    }
+  ]
+}

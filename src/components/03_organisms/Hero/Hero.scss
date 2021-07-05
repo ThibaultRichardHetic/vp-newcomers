@@ -1,0 +1,127 @@
+.container--hero {
+  background-image: url("../../../assets/images/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 772px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+
+  .hero--bg {
+    padding: 96px 80px 0 80px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      115.88deg,
+      rgba(239, 242, 235, 0.4) 6.75%,
+      rgba(239, 242, 235, 0.1) 111.31%
+    );
+    backdrop-filter: blur(4px);
+    background: rgba(95, 58, 118, 0.85);
+    
+    .hero--home {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .hero__text {
+    width: 55%;
+
+    .text--title {
+      margin-bottom: 48px;
+    }
+  }
+
+  .text--ext {
+    width: 40%;
+  }
+
+  .hero__artiste {
+    width: fit-content;
+
+    .artiste-circle {
+      width: 152px;
+      height: 152px;
+      margin: auto;
+      margin-bottom: 8px;
+    }
+
+    &.n0 {
+      position: absolute;
+      right: percent(200, 1440);
+      top: 32%;
+    }
+    &.n1 {
+      position: absolute;
+      right: percent(100, 1440);
+      top: 68%;
+    }
+    &.n2 {
+      position: absolute;
+      right: percent(500, 1440);
+      top: 55%;
+    }
+  }
+
+  .hero--artiste {
+    display: flex;
+
+    .hero__card {
+      width: 40%;
+      .container--card {
+        border-radius: 16px;
+        position: relative;
+        overflow: hidden;
+        max-height: 508px;
+        height: 508px;
+        width: 354px;
+        max-width: 354px;
+
+        .card--bg {
+          width: 100%;
+          height: 100%;
+          background: rgba(95, 58, 118, 0.6);
+        }
+
+        .container--image {
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+
+          img {
+            width: inherit;
+            transform: scale(1.4) translate(0, 50px);
+          }
+        }
+
+        .content {
+          border-radius: 16px;
+          width: 100%;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          background: rgba(74, 74, 74, 0.55);
+          backdrop-filter: blur(4px);
+          padding: 16px 0 24px 0;
+          text-align: center;
+          p {
+            margin-top: 8px;
+            &:last-of-type {
+              margin-bottom: 32px;
+            }
+          }
+
+          .link--button-card {
+            margin-top: 32px;
+          }
+        }
+      }
+    }
+  }
+}

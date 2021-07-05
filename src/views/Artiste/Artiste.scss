@@ -1,0 +1,15 @@
+.page--artiste {
+  overflow: hidden;
+  
+  .container--mot-utile {
+    background-color: var(--black-n2);
+    padding: 80px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0;
+
+    .graph {
+      width: 50%;
+    }
+  }
+}

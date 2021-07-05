@@ -1,0 +1,84 @@
+*[class^="text--"] {
+  font-family: "Montserrat", "Work Sans", sans-serif;
+  color: var(--white);
+
+  &.shadow {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  &.purple {
+    color: var(--purple-n1)
+  }
+}
+
+.text--title,
+.text--triple,
+.text--triple-ext,
+.text--ext {
+  font-family: "Dela Gothic One", "Work Sans", sans-serif;
+  font-size: 3.2rem;
+  line-height: 4.6rem;
+  text-transform: uppercase;
+}
+
+.text--triple,
+.text--triple-ext, {
+  line-height: 1.6rem;
+}
+
+.text--triple-ext, .text--ext {
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--white);
+  &.purple {
+    -webkit-text-stroke-color: var(--purple-n2);
+  }
+}
+
+.text--step {
+  font-family: "Dela Gothic One", "Work Sans", sans-serif;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--purple-n1);
+  font-size: 2rem;
+}
+
+.text--value {
+  font-family: "Dela Gothic One", "Work Sans", sans-serif;
+  font-size: 2rem;
+}
+
+.text--main {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+.text--card-title {
+  font-family: "Dela Gothic One", "Work Sans", sans-serif;
+  font-size: 2rem;
+}
+
+.text--card {
+  font-family: "Dela Gothic One", "Work Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+.text--footer-title {
+  color: var(--purple-n2);
+  font-family: "Dela Gothic One", "Work Sans", sans-serif;
+  font-size: 1.2rem;
+  width: 134px;
+  border-bottom: 1px solid var(--purple-n2);
+  padding-bottom: 8px;
+}
+
+.text--footer {
+  color: var(--purple-n2);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.text--button {
+  font-family: "Dela Gothic One", "Work Sans", sans-serif;
+  font-size: 1.6rem;
+}
