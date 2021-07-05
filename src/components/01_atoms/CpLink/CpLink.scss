@@ -18,16 +18,22 @@ a,
 }
 
 .link--button {
-  background-color: var(--orange-n1);
+  background-color: var(--purple-n1);
   padding: 8px 16px;
   border-radius: 10px;
 }
 
 .link--button-card {
-  background-color: var(--yellow);
+  background-color: var(--purple-n1);
   padding: 8px 42px;
-  color: var(--black);
+  color: var(--white);
   font-size: 2rem;
   line-height: 2.8rem;
   border-radius: 8px;
+  transition: all .4s;
+
+  &:hover {
+      background-color: var(--purple-n2);
+      transition: all .4s;
+  }
 }

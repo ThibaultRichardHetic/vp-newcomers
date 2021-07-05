@@ -1,0 +1,20 @@
+{
+    "newcommers": [
+        {
+            "firstname": "Thibault",
+            "lastname": "Richard",
+            "years": "21",
+            "gender": "male",
+            "live": "Aix-en-Provence",
+            "description": "I like books without pictures movies without explosions, and parties without memories",
+            "passion_1": "Cinema",
+            "passion_2": "Music",
+            "passion_3": "Fashion",
+            "insta": "https://www.instagram.com/thibault_rich/",
+            "spotify": "https://open.spotify.com/playlist/33PcYNM0VyNDzP5WIT8pWP?si=b8273aa0e5234c41",
+            "picture_1": "thibault_1",
+            "picture_2": "thibault_2",
+            "picture_3": "thibault_3"
+        }
+    ]
+}

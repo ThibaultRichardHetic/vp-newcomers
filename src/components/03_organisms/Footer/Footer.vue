@@ -4,16 +4,8 @@
       <img src="@/assets/images/logo.png" alt>
     </CpLink>
     <div class="footer__content">
-      <CpText tag="h4" type="footer-title">Lines</CpText>
-      <CpText tag="p" type="footer">Newsletter</CpText>
-      <CpText tag="p" type="footer">Mentions légales</CpText>
-      <CpText tag="p" type="footer">Cookies</CpText>
-    </div>
-    <div class="footer__content">
-      <CpText tag="h4" type="footer-title">Nous suivre</CpText>
-      <CpText tag="p" type="footer">Facebook</CpText>
-      <CpText tag="p" type="footer">Instagram</CpText>
-      <CpText tag="p" type="footer">Twitter</CpText>
+      <CpText tag="h4" type="footer-title">Propulsed by</CpText>
+      <CpText tag="p" type="footer">Thibault Richard</CpText>
     </div>
   </div>
 </template>
