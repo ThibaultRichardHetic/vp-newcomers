@@ -1,29 +1,55 @@
 <template>
   <div class="container--hero">
-    <div class="hero--bg">
-      <div v-for="newcomer in myJson.newcomers" :key="newcomer.to">
-        <div class="hero--artiste" v-if="$route.params.id === newcomer.to">
-          <div class="hero__card">
-            <div class="container--card">
-              <div class="card--bg">
-                <div class="container--image">
-                  <img :src="require(`@/assets/images/newcomers/${newcomer.picture_1}`)">
-                </div>
-                <div class="content">
-                  <CpText tag="h4" type="card-title">{{ newcomer.firstname }} {{ newcomer.lastname }}</CpText>
-                  <CpText tag="p" type="card">{{ newcomer.years }}</CpText>
-                  <CpText tag="p" type="card">{{ newcomer.gender }} ans</CpText>
-                  <CpText tag="p" type="card">{{ newcomer.live }}</CpText>
-                </div>
+    <div v-for="newcomer in myJson.newcomers" :key="newcomer.to">
+      <div class="hero--newcomer" v-if="$route.params.id === newcomer.to">
+        <div class="hero__flex">
+          <div class="hero--images">
+            <img :src="require(`@/assets/images/newcomers/${newcomer.picture_1}`)">
+          </div>
+          <div class="hero--infos">
+            <CpText tag="h4" type="card-title">{{ newcomer.firstname }} {{ newcomer.lastname }}</CpText>
+            <div class="info__old">
+              <img :src="require(`@/assets/images/cake.svg`)">
+              <CpText tag="p" type="card">{{ newcomer.years }}</CpText>
+            </div>
+            <div class="info__place mt16">
+              <img :src="require(`@/assets/images/house.svg`)">
+              <CpText tag="p" type="card">{{ newcomer.live }}</CpText>
+            </div>
+            <div class="info__description">
+              <CpText tag="h4" type="title mt16">About</CpText>
+              <CpText tag="p" type="card">{{ newcomer.description }}</CpText>
+            </div>
+          </div>
+        </div>
+        <div class="hero__flex">
+          <div class="hero--passions">
+            <CpText tag="h4" type="title">Passions</CpText>
+            <div class="passions">
+              <div class="passion">
+                <CpText tag="p" type="card">{{ newcomer.passion_1 }}</CpText>
+              </div>
+              <div class="passion">
+                <CpText tag="p" type="card">{{ newcomer.passion_2 }}</CpText>
+              </div>
+              <div class="passion">
+                <CpText tag="p" type="card">{{ newcomer.passion_3 }}</CpText>
               </div>
             </div>
           </div>
-
-          <div class="hero__text">
-            <CpText tag="h1" type="title">{{ newcomer.firstname }}</CpText>
-            <CpText tag="h2" type="title">Titres analysés : {{ newcomer.firstname }}</CpText>
-            <CpText tag="h3" type="title">Issu de {{ newcomer.firstname }} albums différents</CpText>
-            <CpText tag="p" type="main">{{ newcomer.description }}</CpText>
+          <div class="hero--links">
+            <div class="hero--insta">
+              <CpText tag="h4" type="title">More of me?</CpText>
+              <a :href="newcomer.insta" target="_blank">
+                <img :src="require(`@/assets/images/insta.png`)">
+              </a>
+            </div>
+            <div class="hero--music mt16">
+              <CpText tag="h4" type="title mt16">My playlist</CpText>
+              <a :href="newcomer.spotify" target="_blank">
+                <img :src="require(`@/assets/images/spotify.png`)">
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -38,7 +64,7 @@ import data_newcomers from "@/assets/data/Newcomers.json";
 export default {
   name: "Hero",
   components: {
-    CpText,
+    CpText
   },
   props: {
     home: {
@@ -48,7 +74,7 @@ export default {
   },
   data() {
     return {
-      myJson: data_newcomers,
+      myJson: data_newcomers
     };
   }
 };

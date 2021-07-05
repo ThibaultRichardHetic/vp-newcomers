@@ -1,0 +1,16 @@
+.container--header {
+  background-color: var(--purple-n1);
+  padding: 16px;
+  .link--logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .back {
+    width: 18px;
+    margin-right: 8px;
+  }
+  .logo {
+    width: 36px;
+  }
+}

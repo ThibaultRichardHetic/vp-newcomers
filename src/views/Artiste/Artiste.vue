@@ -1,24 +1,21 @@
 <template>
   <div class="page--artiste">
-    <Hero home="1"/>
-    <Carousel/>
-    <Footer/>
+    <Header/>
+    <Hero/>
   </div>
 </template>
 
 <script>
 import Hero from "@/components/03_organisms/Hero/Hero.vue";
-import Carousel from "@/components/03_organisms/Carousel/Carousel.vue";
-import Footer from "@/components/03_organisms/Footer/Footer.vue";
+import Header from "@/components/03_organisms/Header/Header.vue";
 
 import data_newcomers from "@/assets/data/Newcomers.json";
 
 export default {
   name: "Artiste",
   components: {
-    Hero,
-    Carousel,
-    Footer
+    Header,
+    Hero
   },
   data() {
     return {
