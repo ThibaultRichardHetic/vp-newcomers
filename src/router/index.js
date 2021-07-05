@@ -2,7 +2,6 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home/Home.vue";
 import Artiste from "../views/Artiste/Artiste.vue";
-import Artistes from "../views/Artistes/Artistes.vue";
 
 Vue.use(VueRouter);
 
@@ -13,14 +12,9 @@ const routes = [
     component: Home
   },
   {
-    path: "/artiste/:id",
-    name: "artiste",
+    path: "/newcomer/:id",
+    name: "newcomer",
     component: Artiste
-  },
-  {
-    path: "/artistes",
-    name: "artistes",
-    component: Artistes
   },
 ];
 

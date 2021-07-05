@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <Header/>
     <Carousel/>
     <Footer/>
   </div>
@@ -8,14 +7,12 @@
 
 <script>
 
-import Header from "@/components/03_organisms/Header/Header.vue";
 import Carousel from "@/components/03_organisms/Carousel/Carousel.vue";
 import Footer from "@/components/03_organisms/Footer/Footer.vue";
 
 export default {
   name: "Home",
   components: {
-    Header,
     Carousel,
     Footer,
   },

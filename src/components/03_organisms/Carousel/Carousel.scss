@@ -3,6 +3,10 @@
   padding: 40px 0 162px 80px;
   background-color: var(--black-n2);
 
+  @include mq-down(md) {
+  padding: 40px 8px 162px 8px;
+  }
+
   .text--title {
     margin-bottom: 56px;
   }
