@@ -26,9 +26,28 @@
     }
 
     .hero--images {
+      position: relative;
       width: 100%;
       img {
         width: 100%;
+      }
+
+      .images__dots {
+        position: absolute;
+        width: 60%;
+        left: 20%;
+        top: 8px;
+        display: flex;
+        justify-content: space-between;
+        .dot {
+          width: 32px;
+          height: 4px;
+          background-color: var(--black-n3);
+
+          &.active {
+            background-color: var(--black-n2);
+          }
+        }
       }
     }
 

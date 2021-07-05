@@ -4,7 +4,6 @@
             "firstname": "Thibault",
             "lastname": "Richard",
             "years": "21",
-            "gender": "male",
             "live": "Aix-en-Provence",
             "description": "I like books without pictures, movies without explosions, and parties without memories.",
             "passion_1": "Find bugs",
@@ -16,6 +15,37 @@
             "picture_2": "thib_2.jpg",
             "picture_3": "thib_3.jpg",
             "to": "trichard"
+        },
+        {
+          "firstname": "Elisabetta",
+          "lastname": "Delmastro",
+          "years": "40",
+          "live": "Aix-en-Provence",
+          "description": "Positive, tenacious, empathic",
+          "passion_1": "Art & Museums",
+          "passion_2": "Movies/ music (rock and classic)",
+          "passion_3": "Food/ wine/ craft beer",
+          "insta": "",
+          "spotify": "",
+          "picture_1": "Elisabetta_Delmastro_baby.jpg",
+          "picture_2": "Elisabetta_Delmastro_Moncenisio.jpg",
+          "picture_3": "Elisabetta_Delmastro_Iran.jpg",
+          "to": "edelmastro"
+        },
+        {
+          "firstname": "Veronica",
+          "lastname": "Accossato",
+          "years": "25",
+          "live": "Cabriès",
+          "description": "Sparkling, precise, funny, empathic",
+          "passion_1": "Wine!",
+          "passion_2": "Food :)",
+          "passion_3": "Electronic music & ballet",
+          "insta": "https://www.instagram.com/thewinepassionate/?hl=fr",
+          "picture_1": "1Veronica-Accossato.jpg",
+          "picture_2": "2Veronica-Accossato.jpg",
+          "picture_3": "3Veronica-Accossato.jpg",
+          "to": "vaccossato"
         }
     ]
 }
