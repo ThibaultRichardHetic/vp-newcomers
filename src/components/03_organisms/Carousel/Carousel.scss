@@ -1,6 +1,7 @@
 .container--carousel {
-  width: 112%;
-  padding: 40px 0 162px 80px;
+  // width: 112%;
+  width: 100%;
+  padding: 40px 0;
   background-color: var(--black-n3);
 
   @include mq-down(md) {
@@ -9,6 +10,13 @@
 
   .text--title {
     margin-bottom: 56px;
+    font-weight: bold;
+    font-size: 3.2rem;
+    text-align: center;
+
+    &.mt24 {
+      margin-top: 24px;
+    }
   }
 
   .container--slide {
@@ -18,6 +26,10 @@
     max-height: 508px;
     height: 508px;
     max-width: 354px;
+    
+    @include mq-down(lg) {
+      max-width: 244px;
+    }
 
     @include mq-down(md) {
       max-width: calc(100vw - 32px);

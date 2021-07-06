@@ -115,8 +115,12 @@ export default {
     getImg: function() {
       for (let i = 0; i < this.myJson.newcomers.length; i++) {
         if (this.myJson.newcomers[i].to == this.$route.params.id) {
-          this.image = this.myJson.newcomers[i].picture_1;
-          this.comer = this.myJson.newcomers[i];
+          if (this.myJson.newcomers[i].picture_1) {
+            this.image = this.myJson.newcomers[i].picture_1;
+            this.comer = this.myJson.newcomers[i];
+          } else {
+            this.image = "default.jpg"
+          }
         }
       }
     }

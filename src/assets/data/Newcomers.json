@@ -26,8 +26,7 @@
           "passion_1": "Art & Museums",
           "passion_2": "Movies/ music (rock and classic)",
           "passion_3": "Food/ wine/ craft beer",
-          "insta": "",
-          "spotify": "",
+          "insta": "https://www.linkedin.com/in/elisabetta-delmastro/?locale=en_US",
           "picture_1": "Elisabetta_Delmastro_baby.jpg",
           "picture_2": "Elisabetta_Delmastro_Moncenisio.jpg",
           "picture_3": "Elisabetta_Delmastro_Iran.jpg",
@@ -75,6 +74,7 @@
           "passion_1": "Literature and writing",
           "passion_2": "Cycling and nature = Cyclotourism",
           "passion_3": "Cooking",
+          "insta": "https://www.facebook.com/Due-sfigati-in-bicicletta-100236485089047",
           "picture_1": "giada_versteegh_1.jpg",
           "picture_2": "giada_versteegh_2.jpg",
           "picture_3": "giada_versteegh_3.jpg",
@@ -107,9 +107,9 @@
           "passion_2": "Literature (Every kind, mostly SF&Fantasy)",
           "passion_3": "Kakapos (rare and clumsy parrots)",
           "insta": "https://www.instagram.com/antramuros/?hl=fr",
-          "picture_1": "julie-dinquel-1.jpg",
+          "picture_1": "julie-dinquel-3.jpg",
+          "picture_3": "julie-dinquel-1.jpg",
           "picture_2": "julie-dinquel-2.jpg",
-          "picture_3": "julie-dinquel-3.jpg",
           "job": "Content Editor Fr + Manage comments on social medias",
           "to": "jdinquel"
         },
@@ -122,9 +122,9 @@
           "passion_1": "Fashion",
           "passion_2": "Food",
           "passion_3": "Working out",
-          "picture_1": "Victoria-Steinhart-1.jpg",
+          "picture_1": "Victoria-Steinhart-3.jpg",
           "picture_2": "Victoria-Steinhart-2.jpg",
-          "picture_3": "Victoria-Steinhart-3.jpg",
+          "picture_3": "Victoria-Steinhart-1.jpg",
           "job": "Bras Droit Country Manager UK",
           "to": "vsteinhart"
         },
@@ -154,8 +154,8 @@
           "passion_3": "Netflix & Chill",
           "insta": "https://www.instagram.com/lyneprn/?utm_medium=copy_link&fbclid=IwAR2zOO8nXMVkn1r9hX5oB1OCLV-cNKeUmqaamYZKC05l5hqkkWysSI0SYn8",
           "spotify": "https://open.spotify.com/playlist/3bxXN9jB2QcqaAdPg6xnWl?si=6a0871cd93a1440e",
-          "picture_1": "Lyne-Pyron-1.jpg",
-          "picture_2": "Lyne-Pyron-2.jpg",
+          "picture_1": "Lyne-Pyron-2.jpg",
+          "picture_2": "Lyne-Pyron-1.jpg",
           "picture_3": "Lyne-Pyron-3.jpg",
           "job": "Global buyer assistant DACH",
           "to": "lpyron"
@@ -195,8 +195,8 @@
           "passion_1": "Travel",
           "passion_2": "Bakery",
           "passion_3": "Sport",
-          "picture_1": "marie-e-1.jpg",
-          "picture_2": "marie-e-2.png",
+          "picture_1": "marie-e-2.png",
+          "picture_2": "marie-e-1.jpg",
           "picture_3": "marie-e-3.png",
           "to": "mnguyen"
         },
@@ -209,8 +209,8 @@
           "passion_1": "Food!",
           "passion_2": "Travel",
           "passion_3": "Classical singing",
-          "picture_1": "perrine_demaugre_1.jpg",
-          "picture_2": "perrine_demaugre_2.jpg",
+          "picture_1": "perrine_demaugre_2.jpg",
+          "picture_2": "perrine_demaugre_1.jpg",
           "to": "pdemaugre"
         },
         {
@@ -223,8 +223,8 @@
           "passion_2": "Travel",
           "passion_3": "Food",
           "insta": "http://instagram.com/ines__bna",
-          "picture_1": "ines_bounoua1.jpg",
-          "picture_2": "ines_bounoua2.jpg",
+          "picture_1": "ines_bounoua2.jpg",
+          "picture_2": "ines_bounoua1.jpg",
           "to": "ibounoua"
         },
         {
@@ -256,19 +256,22 @@
           "to": "vmiltgen"
         },
         {
-          "firstname": "Claire",
-          "lastname": "Wendlandt",
-          "years": "24",
-          "live": "Marseille",
-          "description": "Curious and ambitious, I like change and challenges. I like to travel to other countries and discover other cultures. Because I'm a good spectator, even a bad joke will make me laugh.",
-          "passion_1": "Music",
-          "passion_2": "Food",
-          "passion_3": "Travel",
-          "insta": "https://www.instagram.com/clairement_w/?hl=fr",
-          "picture_1": "Claire_Wendlandt_1.jpg",
-          "picture_2": "Claire_Wendlandt_2.jpg",
-          "job": "Developper",
-          "to": "cwendlandt"
+          "firstname": "Hugo",
+          "lastname": "Versini",
+          "picture_1": "Hugo-v1.jpg",
+          "picture_2": "Hugo-v2.jpg",
+          "to": "hversini"
+        },
+        {
+          "firstname": "Damla",
+          "lastname": "Bulut",
+          "years": "29",
+          "live": "Aix-en-Provence",
+          "description": "Smiling, open minded, curious",
+          "passion_1": "Travel",
+          "passion_2": "Trekking",
+          "passion_3": "Music",
+          "to": "dbulut"
         },
         {
           "firstname": "Roberta",
@@ -370,6 +373,36 @@
           "picture_2": "Edouard-Barre-Farouault2.jpg",
           "job": "Bras Droit Country Manager France",
           "to": "ebarre"
+        },
+        {
+          "firstname": "Jenn",
+          "lastname": "Albarracin",
+          "years": "35",
+          "live": "Marseille",
+          "description": "Colombian traveler. I love to try new things, always possitive with faith that the best is about to come and grateful for everything I have learned.",
+          "passion_1": "Food",
+          "passion_2": "Working out",
+          "passion_3": "Series",
+          "insta": "https://www.instagram.com/jenniffer_ar/",
+          "picture_1": "Jenn2.jpg",
+          "picture_2": "Jenn1.jpg",
+          "job": "Digital Marketing Executive Spain",
+          "to": "jalbarracin"
+        },
+        {
+          "firstname": "Claire",
+          "lastname": "Wendlandt",
+          "years": "24",
+          "live": "Marseille",
+          "description": "Curious and ambitious, I like change and challenges. I like to travel to other countries and discover other cultures. Because I'm a good spectator, even a bad joke will make me laugh.",
+          "passion_1": "Music",
+          "passion_2": "Food",
+          "passion_3": "Travel",
+          "insta": "https://www.instagram.com/clairement_w/?hl=fr",
+          "picture_1": "Claire_Wendlandt_1.jpg",
+          "picture_2": "Claire_Wendlandt_2.jpg",
+          "job": "Developper",
+          "to": "cwendlandt"
         }
     ]
 }

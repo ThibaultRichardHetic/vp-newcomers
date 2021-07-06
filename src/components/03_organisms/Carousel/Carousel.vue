@@ -12,13 +12,15 @@
           </div>
           <div class="content">
             <CpText tag="h4" type="card-title carousel">{{ newcomer.firstname }}</CpText>
-            <CpText tag="p" type="card carousel">{{ newcomer.years }} years old</CpText>
+            <CpText v-if="newcomer.years" tag="p" type="card carousel">{{ newcomer.years }} years old</CpText>
+            <CpText v-if="newcomer.job" tag="p" type="card carousel">{{ newcomer.job }}</CpText>
             <CpText tag="p" type="card carousel">{{ newcomer.live }}</CpText>
             <CpLink :page="`/newcomer/${newcomer.to}`" type="button-card">More +</CpLink>
           </div>
         </div>
       </div>
     </VueSlickCarousel>
+    <CpText tag="h2" type="title mt24">Swipe!</CpText>
   </div>
 </template>
 
@@ -46,6 +48,7 @@ export default {
         slidesToShow: 4,
         slidesToScroll: 1,
         infinite: true,
+        focusOnSelect: true,
         responsive: [
           {
             breakpoint: 720,
