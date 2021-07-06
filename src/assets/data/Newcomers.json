@@ -14,6 +14,7 @@
             "picture_1": "thib_1.jpg",
             "picture_2": "thib_2.jpg",
             "picture_3": "thib_3.jpg",
+            "job": "Product Manager",
             "to": "trichard"
         },
         {
@@ -21,7 +22,7 @@
           "lastname": "Delmastro",
           "years": "40",
           "live": "Aix-en-Provence",
-          "description": "Positive, tenacious, empathic",
+          "description": "Positive, tenacious, collaborative",
           "passion_1": "Art & Museums",
           "passion_2": "Movies/ music (rock and classic)",
           "passion_3": "Food/ wine/ craft beer",
@@ -30,6 +31,7 @@
           "picture_1": "Elisabetta_Delmastro_baby.jpg",
           "picture_2": "Elisabetta_Delmastro_Moncenisio.jpg",
           "picture_3": "Elisabetta_Delmastro_Iran.jpg",
+          "job": "Content Editor IT",
           "to": "edelmastro"
         },
         {
@@ -45,7 +47,86 @@
           "picture_1": "1Veronica-Accossato.jpg",
           "picture_2": "2Veronica-Accossato.jpg",
           "picture_3": "3Veronica-Accossato.jpg",
+          "job": "Content Editor IT",
           "to": "vaccossato"
+        },
+        {
+          "firstname": "Francesca",
+          "lastname": "Bombelli",
+          "years": "24",
+          "live": "Aix-en-Provence",
+          "description": "Curious, open-minded",
+          "passion_1": "Music (listening)",
+          "passion_2": "Food",
+          "passion_3": "discovering new places",
+          "insta": "https://www.instagram.com/eff_b/",
+          "spotify": "https://open.spotify.com/playlist/23GfQ9E8LORmCwDGOBdIsi?si=XA1xlhkBRLO56YUz3gKKug&utm_source=copy-link&dl_branch=1",
+          "picture_1": "francesca1.jpg",
+          "picture_2": "francesca2.jpg",
+          "picture_3": "francesca3.jpg",
+          "to": "fbombelli"
+        },
+        {
+          "firstname": "Giada",
+          "lastname": "Versteegh",
+          "years": "27",
+          "live": "Aix-en-Provence",
+          "description": "Positive, genuine, curious and open minded",
+          "passion_1": "Literature and writing",
+          "passion_2": "Cycling and nature = Cyclotourism",
+          "passion_3": "Cooking",
+          "picture_1": "giada_versteegh_1.jpg",
+          "picture_2": "giada_versteegh_2.jpg",
+          "picture_3": "giada_versteegh_3.jpg",
+          "job": "Content Editor IT",
+          "to": "gversteegh"
+        },
+        {
+          "firstname": "Gaia",
+          "lastname": "Laudani",
+          "years": "26",
+          "live": "Le Tholonet",
+          "description": "Curious, love learning new things and discover new places, adaptable, open-minded, calm, altruistic and empathic",
+          "passion_1": "Travelling and discovering new cultures",
+          "passion_2": "Gastronomy (I love good food and good wine/beer)",
+          "passion_3": "Yoga & meditation",
+          "insta": "https://www.instagram.com/gaia.laudani/",
+          "picture_1": "Gaia-Laudani_enfant.jpg",
+          "picture_2": "Gaia-Laudani_Paris.jpg",
+          "picture_3": "Gaia-Laudani_Jordanie.jpg",
+          "job": "Content editor IT",
+          "to": "glaudani"
+        },
+        {
+          "firstname": "Julie",
+          "lastname": "Dinquel",
+          "years": "28",
+          "live": "Aix en Provence",
+          "description": "Loves to discover new cultures, stubborn. open-minded, empathic In Aix for 1 year, studied in Strasbourg (<3)",
+          "passion_1": "Video Games",
+          "passion_2": "Literature (Every kind, mostly SF&Fantasy)",
+          "passion_3": "Kakapos (rare and clumsy parrots)",
+          "insta": "https://www.instagram.com/antramuros/?hl=fr",
+          "picture_1": "julie-dinquel-1.jpg",
+          "picture_2": "julie-dinquel-2.jpg",
+          "picture_3": "julie-dinquel-3.jpg",
+          "job": "Content Editor Fr + Manage comments on social medias",
+          "to": "jdinquel"
+        },
+        {
+          "firstname": "Victoria",
+          "lastname": "Steinhart",
+          "years": "24",
+          "live": "Aix en Provence",
+          "description": "Originally coming from Strasbourg, I love meeting new people and discovering new cultures.",
+          "passion_1": "Fashion",
+          "passion_2": "Food",
+          "passion_3": "Working out",
+          "picture_1": "Victoria-Steinhart-1.jpg",
+          "picture_2": "Victoria-Steinhart-2.jpg",
+          "picture_3": "Victoria-Steinhart-3.jpg",
+          "job": "Bras Droit Country Manager UK",
+          "to": "vsteinhart"
         }
     ]
 }

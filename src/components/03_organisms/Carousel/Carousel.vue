@@ -4,8 +4,11 @@
     <VueSlickCarousel v-bind="settings">
       <div class="container--slide" v-for="newcomer in myJson.newcomers" :key="newcomer.lastname">
         <div class="slide--bg">
-          <div class="container--image">
+          <div class="container--image" v-if="newcomer.picture_1">
             <img :src="require(`@/assets/images/newcomers/${newcomer.picture_1}`)" alt>
+          </div>
+          <div class="container--image" v-else>
+            <img :src="require(`@/assets/images/newcomers/default.jpg`)" alt>
           </div>
           <div class="content">
             <CpText tag="h4" type="card-title carousel">{{ newcomer.firstname }}</CpText>

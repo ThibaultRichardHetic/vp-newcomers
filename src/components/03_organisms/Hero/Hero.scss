@@ -63,7 +63,8 @@
         padding: 16px;
       }
       .info__old,
-      .info__place {
+      .info__place,
+      .info__job {
         display: flex;
         align-items: center;
 
@@ -88,7 +89,6 @@
     .hero--links {
       padding: 16px;
 
-     
         display: flex;
         justify-content: space-between;
         .hero--music {
@@ -96,7 +96,6 @@
           h4 {
             margin-top: 0;
           }
-        
       }
     }
 

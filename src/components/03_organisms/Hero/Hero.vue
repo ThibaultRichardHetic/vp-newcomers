@@ -5,9 +5,9 @@
         <div class="hero__flex">
           <div class="hero--images" v-on:click="swap()">
             <div class="images__dots">
-              <div class="dot" :class="{ 'active': position == 1 }"></div>
-              <div class="dot" :class="{ 'active': position == 2 }"></div>
-              <div class="dot" :class="{ 'active': position == 3 }"></div>
+              <div v-if="newcomer.picture_1" class="dot" :class="{ 'active': position == 1 }"></div>
+              <div v-if="newcomer.picture_2" class="dot" :class="{ 'active': position == 2 }"></div>
+              <div v-if="newcomer.picture_3" class="dot" :class="{ 'active': position == 3 }"></div>
             </div>
             <img :src="require(`@/assets/images/newcomers/${image}`)">
           </div>
@@ -15,11 +15,15 @@
           <div class="hero--infos">
             <div class="info">
               <CpText tag="h4" type="card-title">{{ newcomer.firstname }} {{ newcomer.lastname }}</CpText>
-              <div class="info__old">
+              <div class="info__job" v-if="newcomer.job">
+                <img :src="require(`@/assets/images/job.svg`)">
+                <CpText tag="p" type="card">{{ newcomer.job }}</CpText>
+              </div>
+              <div class="info__old mt16" v-if="newcomer.years">
                 <img :src="require(`@/assets/images/cake.svg`)">
                 <CpText tag="p" type="card">{{ newcomer.years }}</CpText>
               </div>
-              <div class="info__place mt16">
+              <div class="info__place mt16" v-if="newcomer.live">
                 <img :src="require(`@/assets/images/house.svg`)">
                 <CpText tag="p" type="card">{{ newcomer.live }}</CpText>
               </div>
