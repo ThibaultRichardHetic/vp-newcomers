@@ -11,6 +11,8 @@
             </div>
             <img :src="require(`@/assets/images/newcomers/${image}`)">
           </div>
+
+          
           <div class="hero--infos">
             <CpText tag="h4" type="card-title">{{ newcomer.firstname }} {{ newcomer.lastname }}</CpText>
             <div class="info__old">

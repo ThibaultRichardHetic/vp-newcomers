@@ -20,6 +20,10 @@
     .hero__flex {
       display: flex;
       justify-content: space-between;
+
+      @include mq-up (md) {
+        justify-content: start;
+      }
       @include mq-down (md) {
         flex-direction: column;
       }
@@ -28,6 +32,11 @@
     .hero--images {
       position: relative;
       width: 100%;
+
+      @include mq-up(md) {
+        width: 40%;
+      }
+
       img {
         width: 100%;
       }

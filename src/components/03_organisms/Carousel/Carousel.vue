@@ -8,9 +8,9 @@
             <img :src="require(`@/assets/images/newcomers/${newcomer.picture_1}`)" alt>
           </div>
           <div class="content">
-            <CpText tag="h4" type="card-title">{{ newcomer.firstname }}</CpText>
-            <CpText tag="p" type="card">{{ newcomer.years }} years old</CpText>
-            <CpText tag="p" type="card">{{ newcomer.live }}</CpText>
+            <CpText tag="h4" type="card-title carousel">{{ newcomer.firstname }}</CpText>
+            <CpText tag="p" type="card carousel">{{ newcomer.years }} years old</CpText>
+            <CpText tag="p" type="card carousel">{{ newcomer.live }}</CpText>
             <CpLink :page="`/newcomer/${newcomer.to}`" type="button-card">More +</CpLink>
           </div>
         </div>
@@ -50,6 +50,8 @@ export default {
               slidesToShow: 1,
               slidesToScroll: 1,
               infinite: true,
+              centerMode: true,
+              centerPadding: "8px"
             }
           }
         ]

@@ -1,7 +1,7 @@
 .container--carousel {
   width: 112%;
   padding: 40px 0 162px 80px;
-  background-color: var(--black-n2);
+  background-color: var(--black-n3);
 
   @include mq-down(md) {
   padding: 40px 8px 162px 8px;
@@ -19,10 +19,14 @@
     height: 508px;
     max-width: 354px;
 
+    @include mq-down(md) {
+      max-width: calc(100vw - 32px);
+    }
+
     .slide--bg {
       width: 100%;
       height: 100%;
-      background: rgba(95, 58, 118, 0.6);
+      background: rgba(186, 24, 70, 0.2);
     }
 
     .container--image {
