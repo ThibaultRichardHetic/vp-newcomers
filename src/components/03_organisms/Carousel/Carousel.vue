@@ -12,7 +12,6 @@
           </div>
           <div class="content">
             <CpText tag="h4" type="card-title carousel">{{ newcomer.firstname }}</CpText>
-            <CpText v-if="newcomer.years" tag="p" type="card carousel">{{ newcomer.years }} years old</CpText>
             <CpText v-if="newcomer.job" tag="p" type="card carousel">{{ newcomer.job }}</CpText>
             <CpText tag="p" type="card carousel">{{ newcomer.live }}</CpText>
             <CpLink :page="`/newcomer/${newcomer.to}`" type="button-card">More +</CpLink>
