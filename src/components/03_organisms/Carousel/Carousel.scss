@@ -14,6 +14,10 @@
     font-size: 3.2rem;
     text-align: center;
 
+    &.t1, &.t2 {
+      margin-bottom: 16px;
+    }
+
     &.mt24 {
       margin-top: 24px;
     }

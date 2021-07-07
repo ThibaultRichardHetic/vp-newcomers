@@ -1,6 +1,7 @@
 <template>
   <div class="container--carousel">
-    <CpText tag="h2" type="title">{{ title }}</CpText>
+    <CpText tag="h2" type="title t1">{{ title }}</CpText>
+    <CpText tag="h2" type="title t2">Swipe!</CpText>
     <VueSlickCarousel v-bind="settings">
       <div class="container--slide" v-for="newcomer in myJson.newcomers" :key="newcomer.lastname">
         <div class="slide--bg">
